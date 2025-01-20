@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delicious Restaurant Menu</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+  
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f9f9f9;
+}
+
+.header {
+  background-color: orange;
+  color: black;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.header p {
+  margin: 5px 0;
+  font-size: 1.2rem;
+}
+
+.menu {
+  width: 80%;
+  margin: 20px auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.menu-section {
+  margin-bottom: 30px;
+}
+
+.menu-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #ff6b6b;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #eee;
+  padding: 15px 0;
+}
+
+.menu-item img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+}
+
+.item-details {
+  flex-grow: 1;
+  margin-left: 15px;
+}
+
+.item-details h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.item-details p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.item-price {
+  text-align: right;
+}
+
+.item-price p {
+  font-size: 1.1rem;
+  margin: 0;
+  color: black;
+}
+
+.item-price button {
+  background-color:green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.item-price button:hover {
+  background-color: #ff5252;
+}
+
+</style>
+<body>
+  <header class="header">
+    <h1>Restaurant</h1>
+  
+  </header>
+
+  <main class="menu">
+    <section class="menu-section">
+      <h2>Starters</h2>
+      <div class="menu-item">
+        <img src="https://cdn.pixabay.com/photo/2018/03/15/12/16/food-3228057_640.jpg" alt="Spring Rolls">
+        <div class="item-details">
+          <h3>Spring Rolls</h3>
+          <p>Fresh and crispy spring rolls served with tangy dip.</p>
+        </div>
+        <div class="item-price">
+          <p>$5.99</p>
+          <button>Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="https://t4.ftcdn.net/jpg/03/19/22/35/360_F_319223572_ILWIWBuhaeyTzGPLQ0rJCVtBSGOqw864.jpg" alt="Garlic Bread">
+        <div class="item-details">
+          <h3>Garlic Bread</h3>
+          <p>Buttery garlic bread with a crispy crust.</p>
+        </div>
+        <div class="item-price">
+          <p>$3.99</p>
+          <button>Order Now</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu-section">
+      <h2>Main Course</h2>
+      <div class="menu-item">
+        <img src="https://cdn.pixabay.com/photo/2024/01/30/16/47/ai-generated-8542471_640.jpg" alt="Grilled Chicken">
+        <div class="item-details">
+          <h3>Grilled Chicken</h3>
+          <p>Juicy grilled chicken served with steamed vegetables.</p>
+        </div>
+        <div class="item-price">
+          <p>$12.99</p>
+          <button>Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="https://www.inspiredtaste.net/wp-content/uploads/2023/03/Veggie-Spaghetti-Recipe-Video.jpg" alt="Veggie Pasta">
+        <div class="item-details">
+          <h3>Veggie Pasta</h3>
+          <p>Healthy and delicious veggie-loaded pasta.</p>
+        </div>
+        <div class="item-price">
+          <p>$10.99</p>
+          <button>Order Now</button>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
