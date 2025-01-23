@@ -17,9 +17,6 @@ console.log(fruits2);
 
   console.log(arrayMethod);
 
-//   const arrayMethod1 = new arrayMethod1(1,2,3,4,5)
-
-//   console.log(arrayMethod1);
 
   const arrayMethod2 = []
 
