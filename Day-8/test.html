@@ -41,6 +41,8 @@
     // renderMovieListInHtml.style.color = 'red'
     //   loopsrenderMovieListInHtml
     const renderMovieList = MoviesList.map((copyOfMovieList) => {
+
+    //  MoviesList.map(copyOfMovieList){
       return `
 
            
@@ -62,3 +64,38 @@
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+<!-- Family Tree Analogy -->
+<!-- <html>  Grandfather -->
+  <head> <!-- Father -->
+    <title>First Child</title>
+  </head>
+  <body> <!-- Uncle -->
+    <div id="screen"> <!-- Cousin -->
+      <button>Book Now</button> <!-- Grandchild -->
+    </div>
+  </body>
+  <script>
+    // #### 2. DOM Manipulation Basics
+
+
+// 1. Select Element
+let screenDiv = document.getElementById("screen");
+
+// 2. Change Properties
+screenDiv.style.backgroundColor = "black";
+screenDiv.innerHTML = "<h2>Now Showing</h2>";
+
+// 3. Create New Elements
+let newButton = document.createElement("button");
+newButton.textContent = "6PM Show there";
+screenDiv.appendChild(newButton);
+  </script>
+<!-- </html>  -->
